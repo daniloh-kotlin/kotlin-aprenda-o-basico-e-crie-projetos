@@ -2,3 +2,4 @@
 
 Livro que criei para aprender e ensinar a linguagem Kotlin para quem quer trabalhar com Android e utilizar em diversos projetos. 
 
+<img src="capa-livro-kotlin.png" width="320"/>
