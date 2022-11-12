@@ -5,6 +5,8 @@ class Endereco() {
 }
 
 class Pessoa {
+    val nome = "Pedro"
+    val idade = 30
     val endereco = Endereco()
 }
 
@@ -12,8 +14,14 @@ fun main() {
     val pessoa = Pessoa()
     val endereco = pessoa.endereco
 
+    println("=== Nome e Idade === ")
+    println("Nome: " + pessoa.nome)
+    println("Idade: " + pessoa.idade)
+
+    println()
+
     println("=== ENDEREÇO ===")
-    println(endereco.vila)
-    println(endereco.rua)
-    println(endereco.numero)
+    println("Vila: " + endereco.vila)
+    println("Rua: " + endereco.rua)
+    println("Nº: " + endereco.numero)
 }
